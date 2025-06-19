@@ -1,4 +1,4 @@
-# hand-pose-model-Nazarena
+# hand-pose-model-Milagros
 
 
 Este proyecto utiliza el modelo `MediaPipeHands` de `@tensorflow-models/hand-pose-detection` para detectar y dibujar manos en un video cargado por el usuario. Implementado completamente en el navegador con TensorFlow.js y renderizado en un `<canvas>`.
