@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Detección de Gestos de Manos</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/hand-pose-detection"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav><h1>Detección de poses de la mano</h1></nav>
+
+  <div id="main">
+    <canvas id="output-canvas" width="800" height="600"></canvas>
+    <div id="status">Cargando modelo...</div>
+  </div>
+
+  <video id="webcam" autoplay playsinline></video>
+  <script src="script.js"></script>
+</body>
+</html>

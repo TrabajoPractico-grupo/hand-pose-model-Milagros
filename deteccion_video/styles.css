@@ -1,0 +1,15 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 20px;
+    }
+    video, canvas {
+      border: 1px solid #000000;
+      margin-top: 20px;
+    }
+    #status {
+      margin-top: 10px;
+      font-size: 18px;
+    }
